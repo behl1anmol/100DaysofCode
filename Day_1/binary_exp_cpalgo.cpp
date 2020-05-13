@@ -1,5 +1,5 @@
 /*Binary Exponentiation
-        t(n)=(lon n)
+        t(n)=(log n)
         */
 #include<bits/stdc++.h>
 
