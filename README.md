@@ -4,7 +4,7 @@
 ## My public announcement
 1. [Twitter Commitment](https://twitter.com/behl1anmol/status/1260229010291744769?s=20)
 
-2. [LinkedIn Commitment](https://www.linkedin.com/feed/update/urn:li:activity:6419136040908492800)
+2. [LinkedIn Commitment](https://www.linkedin.com/posts/activity-6665995918220886016-WWDO)
 
 ## Rules
 The main rule: Code minimum an hour every day for the next 100 days.
