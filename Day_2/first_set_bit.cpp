@@ -1,4 +1,6 @@
-
+/* 
+https://practice.geeksforgeeks.org/problems/find-first-set-bit-1587115620/1/?track=SPCF-BitMagic&batchId=154
+T(n)=O(n)*/
 #include<bits/stdc++.h>
 using namespace std;
 
