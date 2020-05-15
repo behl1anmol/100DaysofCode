@@ -1,7 +1,7 @@
 /*
 https://practice.geeksforgeeks.org/problems/bit-difference-1587115620/1/?track=SPCF-BitMagic&batchId=154
 
-T(n)=O(n)
+T(n)=O(logn)
 */
 
 #include<bits/stdc++.h>
@@ -10,7 +10,7 @@ using namespace std;
 int countBitsFlip(int a, int b){
     
     int c=a^b;
-    
+
     if(c==0){
         return 0;
     }
