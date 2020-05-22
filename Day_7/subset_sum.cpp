@@ -29,13 +29,13 @@ bool func_memorization(int arr[],int n, int sum){
      
      int **dp;
      
-     dp=new int*[n];
+     dp=new int*[n+1];
 
-     for(int i=0;i<n;i++){
+     for(int i=0;i<n+1;i++){
          dp[i]= new int[sum + 1];
      }
 
-     for(int i=0;i<n;i++){
+     for(int i=0;i<n+1;i++){
          for(int j=0;j<=sum;j++){
              dp[i][j]=-1;
          }
