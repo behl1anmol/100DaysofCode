@@ -1,6 +1,6 @@
 """
 sparse array hackerrank 
-O(n^2)
+O(n)
 """
 n=int(input())
 d=dict()
