@@ -1,3 +1,5 @@
+//iterative left view
+//T(n)=O(n)  S(n)=O(n)
 #include<bits/stdc++.h>
 using namespace std;
 
