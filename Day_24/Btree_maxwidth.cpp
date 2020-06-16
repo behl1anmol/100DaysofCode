@@ -17,6 +17,7 @@ public:
     Node *insert(Node *root,int data);
 };
 
+//T(n) = O(n)
 void max_width(Node *root){
     if(root==NULL){
         return;

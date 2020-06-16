@@ -22,7 +22,7 @@ int height(Node *root){
     if(root){
         return 1+ max(height(root->left),height(root->right));
     }
-    return -1;
+    return 0;
 }
 //T(n)=O(n^2)
 bool balanced_btree(Node* root){
