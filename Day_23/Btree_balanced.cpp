@@ -59,13 +59,9 @@ int balanced_tree(Node *root){
 
 int main(){
 
-    Node *root = new Node(8);
-    root->left = new Node(12);
-    root->right = new Node(15);
-    root->left->left = new Node(13);
-    root->left->right = new Node(14);
-    root->right->right = new Node(16);
-    root->right->right->right = new Node(17);
+    Node *root = new Node(1);
+    root->left = new Node(2);
+    root->left->right = new Node(3);
 
     int isbalanced=balanced_tree(root); 
     if(isbalanced !=-1){
