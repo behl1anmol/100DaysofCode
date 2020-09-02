@@ -70,11 +70,11 @@ int main(){
     cout<<"state initially:"<<"\n";
     state(p,t,s);
 
-    cout<<"enter events in the format: \n ->REQ <pid> //for request\n ->REL <pid> //for release\n->EXIT //to exit\n\n";
+    cout<<"enter events in the format: \n ->REQUEST <pid> //for request\n ->RELEASE <pid> //for release\n->EXIT //to exit\n\n";
     while(str!="EXIT"){
         	cin >> str;
 
-		if (str == "REQ")
+		if (str == "REQUEST")
 		{
 			cin >> pid;
 			cout << endl;
@@ -83,7 +83,7 @@ int main(){
 			state(p,t,s);
 			cout << "\n";
 		}
-		else if (str == "REL")
+		else if (str == "RELEASE")
 		{
 			cin >> pid;
 			cout << endl;
